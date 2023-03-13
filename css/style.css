@@ -1,0 +1,105 @@
+
+
+body {
+  background-image: url('/images/backgroun-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-attachment: contained;
+  background-size: cover;
+  background-color:white;
+  color:rgb(0, 0, 0);
+}
+
+.background-image {
+  height: 100vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+
+/* button {
+  border: none;
+  background: fuchsia;
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  transition: .4s;
+}
+button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.wrapper {
+  margin: 150px auto;
+  width: 70%;
+} */
+
+footerContainer {
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 70px 30px 20px;
+  margin-left: 120px;
+  margin-top: 25px;
+  transform: translate(-45%, 90%);
+}
+socialIcons a {
+  text-decoration: none;
+  padding: 0px;
+  background-color:rgb(252, 172, 115);
+  /* margin: 10px; */
+  /* border-radius: 50%; */
+}
+
+socialIcons a i {
+  font-size: 20px;
+  color: yellow;
+  /* opacity: 0.9; */
+}
+socialIcons a:hover {
+  background-color: fuchsia;
+  transition: 0.5s;
+}
+socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+.footerNav {
+  width: 100%;
+  /* margin: 30px; */
+}
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+}
+.footerNav ul li a {
+ color: white;
+ margin: 20px;
+ text-decoration: none;
+ font-size: 1.3em;
+ opacity: 0.7
+}
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+
+p {
+text-align: center;
+}
+.para {
+text-align: left;
+}
+.copy {
+  text-align: center;
+}
+i {
+  font-size: 40px;
+  padding: 2.4px;
+  margin-top: 40%;
+}
