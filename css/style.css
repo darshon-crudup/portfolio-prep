@@ -7,6 +7,9 @@ body {
   background-color:white;
   color:rgb(0, 0, 0);
 }
+.pitch {
+  width: 1250px;
+}
 .image3 {
   transform: translate(5%, -700%);
  }
@@ -48,7 +51,7 @@ ol {
 button {
   border: none;
   background: black;
-  padding: 12px 30px;
+  padding: 3px 30px;
   border-radius: 30px;
   color: white;
   font-weight: bold;
@@ -57,17 +60,18 @@ button {
 }
 button:hover {
   transform: scale(1.1);
-  color:yellowgreen;
+  background: yellowgreen;
+  color:black;
   cursor: pointer;
 }
 .image1 {
   border-radius: 50%;
-  /* border: 15px solid fuchsia; */
-  margin-left: 1px;
+  margin-top: 100px;
+  margin-left: 60px;
   margin-right: 25px;
-  margin-bottom: 150px;
+  /* margin-bottom: 50px; */
   transform: translate(15%, -20%);
-  max-width: 320px;
+  max-width: 220px;
   float:left;
 }
 socialIcons a {
@@ -142,12 +146,12 @@ i {
   border-radius: 4px;
   padding: 5px;
   width: 150px;
-  margin-left: 3.2%;
-  margin-right: -3.2%;
+  margin-left: 25.2%;
+  margin-right: -25.2%;
 }
 .emoji {
-  transform: translate(5%, -195%);
+  transform: translate(5%, -206%);
 }
 .copyright {
-  padding-top: 15px;
+  padding-top: 40px;
 }
