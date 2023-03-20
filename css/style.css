@@ -2,22 +2,14 @@
 body {
   background-image: url('/images/backgroun-unsplash.jpg');
   background-repeat: no-repeat;
-  background-attachment: contained;
-  background-size: cover;
+  background-attachment:contained;
+  background-size:cover;
   background-color:white;
   color:rgb(0, 0, 0);
 }
-
-.Signature {
-  padding-top: 2%;
-  margin-left: 30%;
-}
-
-.background-image {
-  height: 50vh;
-  padding-top: 15%;
-  padding-left: 75%;
-}
+.image3 {
+  transform: translate(5%, -700%);
+ }
 
 * {
   padding: 0;
@@ -68,17 +60,15 @@ button:hover {
   color:yellowgreen;
   cursor: pointer;
 }
-img {
+.image1 {
   border-radius: 50%;
   /* border: 15px solid fuchsia; */
-  /* margin-left: 100px; */
-  margin-top: 25px
+  margin-left: 1px;
+  margin-right: 25px;
+  margin-bottom: 150px;
   transform: translate(15%, -20%);
   max-width: 320px;
   float:left;
-  /* border: 3px solid fuchsia; */
-  /* border-radius: 10px; */
-  /* margin-right: 15px */
 }
 socialIcons a {
   text-decoration: none;
@@ -87,7 +77,6 @@ socialIcons a {
   /* margin: 10px; */
   /* border-radius: 50%; */
 }
-
 socialIcons a i {
   font-size: 20px;
   color: yellow;
@@ -120,8 +109,14 @@ socialIcons a:hover i{
   opacity: 1;
 }
 
+h2 {
+  padding-left: 25%;
+}
+h3 {
+  padding-left: 25%;
+}
 p {
-text-align: center;
+padding-left: 25%;
 }
 .para {
 text-align: left;
@@ -132,5 +127,27 @@ text-align: left;
 i {
   font-size: 40px;
   padding: 2.4px;
-  margin-top: 40%;
+  margin-top: 20%;
+}
+.image2 {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  margin-left: 25%;
+  margin-right: -25%;
+}
+.screenshot2 {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  margin-left: 3.2%;
+  margin-right: -3.2%;
+}
+.emoji {
+  transform: translate(5%, -195%);
+}
+.copyright {
+  padding-top: 15px;
 }
